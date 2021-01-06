@@ -20,9 +20,9 @@
                 <title>student.xsl</title>
             </head>
             <body>
-                <h1>List of Students</h1>
-                <table>
-                    <thead>
+                <h1 style="color: white;text-align: center">List of Students</h1>
+                <table style="font-family: Arial, Helvetica, sans-serif;width: 100%;border-collapse: collapse">
+                    <thead style="background-color: #4CAF50;color: white">
                         <th>Name</th>
                         <th>Age</th>
                         <th>Address</th>
