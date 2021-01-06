@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <name>Nguyen Ba Tuan Anh</name>
+        <age>26</age>
+        <address>Bac Giang</address>
+    </student>
+    <student>
+        <name>Nguyen Ba Tung Lam</name>
+        <age>1.5</age>
+        <address>Ha Noi</address>
+    </student>
+    <student>
+        <name>Nguyen Thi Hong</name>
+        <age>26</age>
+        <address>Thai Nguyen</address>
+    </student>
+</students>
