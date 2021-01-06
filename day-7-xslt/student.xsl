@@ -21,7 +21,7 @@
             </head>
             <body>
                 <h1>List of Students</h1>
-                <table class="table">
+                <table>
                     <thead>
                         <th>Name</th>
                         <th>Age</th>
