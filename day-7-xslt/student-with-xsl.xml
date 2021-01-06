@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="student.xsl" type="text/xsl"?>
+<?xml-stylesheet href="styles.css" type="text/css"?>
 <students>
     <student>
         <name>Nguyen Ba Tuan Anh</name>

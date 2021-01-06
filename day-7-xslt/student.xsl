@@ -18,7 +18,6 @@
         <html>
             <head>
                 <title>student.xsl</title>
-                <link rel="stylesheet" href="styles.css">
             </head>
             <body>
                 <h1>List of Students</h1>
