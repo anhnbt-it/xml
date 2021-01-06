@@ -19,7 +19,7 @@
             <head>
                 <title>student.xsl</title>
             </head>
-            <body>
+            <body style="font-family:Arial;font-size:12pt;background-color:#EEEEEE">
                 <h1 style="text-align: center">List of Students</h1>
                 <table style="font-family: Arial, Helvetica, sans-serif;width: 100%;border-collapse: collapse">
                     <thead style="background-color: #4CAF50;color: white">
@@ -30,18 +30,32 @@
                     </thead>
                     <tbody>
                         <xsl:for-each select="students/student">
-                        <tr>
-                            <td><xsl:value-of select="@id"/></td>
-                            <td>
-                                <xsl:value-of select="name"/>
-                            </td>
-                            <td>
-                                <xsl:value-of select="age"/>
-                            </td>
-                            <td>
-                                <xsl:value-of select="address"/>
-                            </td>
-                        </tr>
+                            <xsl:sort select="@id"></xsl:sort>
+                            <tr>
+                                <td>
+                                    <xsl:choose>
+                                        <xsl:when test="age &gt; 10">
+                                            <span style="font-weight: bold">
+                                                <xsl:value-of select="@id"/>
+                                            </span>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <span style="font-weight: bold; color: red">
+                                                <xsl:value-of select="@id"/>
+                                            </span>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </td>
+                                <td>
+                                    <xsl:value-of select="name"/>
+                                </td>
+                                <td>
+                                    <xsl:value-of select="age"/>
+                                </td>
+                                <td>
+                                    <xsl:value-of select="address"/>
+                                </td>
+                            </tr>
                         </xsl:for-each>
                     </tbody>
                 </table>
