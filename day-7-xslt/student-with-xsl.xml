@@ -17,4 +17,9 @@
         <age>26</age>
         <address>Thai Nguyen</address>
     </student>
+    <student>
+        <name>Nguyen Van A</name>
+        <age>18</age>
+        <address>19 NT</address>
+    </student>
 </students>
