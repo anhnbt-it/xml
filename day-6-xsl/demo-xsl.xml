@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="testHTML.xsl"?>
+<ListStudent>
+    <Student>
+        <Name>Nguyen Ba Tuan Anh</Name>
+        <Telephone>1234</Telephone>
+        <Address>Ha Noi</Address>
+        <Class>C1908M</Class>
+    </Student>
+    <Student>
+        <Name>Nguyen Ba Tuan Anh</Name>
+        <Telephone>1234</Telephone>
+        <Address>Ha Noi</Address>
+        <Class>C1908M</Class>
+    </Student>
+    <Student>
+        <Name>Nguyen Ba Tuan Anh</Name>
+        <Telephone>1234</Telephone>
+        <Address>Ha Noi</Address>
+        <Class>C1908M</Class>
+    </Student>
+</ListStudent>
