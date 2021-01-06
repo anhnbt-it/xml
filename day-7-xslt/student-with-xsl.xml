@@ -2,22 +2,22 @@
 <?xml-stylesheet href="student.xsl" type="text/xsl"?>
 <?xml-stylesheet href="styles.css" type="text/css"?>
 <students>
-    <student>
+    <student id="S001">
         <name>Nguyen Ba Tuan Anh</name>
         <age>26</age>
         <address>Bac Giang</address>
     </student>
-    <student>
+    <student id="S002">
         <name>Nguyen Ba Tung Lam</name>
         <age>1.5</age>
         <address>Ha Noi</address>
     </student>
-    <student>
+    <student id="S003">
         <name>Nguyen Thi Hong</name>
         <age>26</age>
         <address>Thai Nguyen</address>
     </student>
-    <student>
+    <student id="S004">
         <name>Nguyen Van A</name>
         <age>18</age>
         <address>19 NT</address>

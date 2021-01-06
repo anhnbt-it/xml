@@ -20,9 +20,10 @@
                 <title>student.xsl</title>
             </head>
             <body>
-                <h1 style="color: white;text-align: center">List of Students</h1>
+                <h1 style="text-align: center">List of Students</h1>
                 <table style="font-family: Arial, Helvetica, sans-serif;width: 100%;border-collapse: collapse">
                     <thead style="background-color: #4CAF50;color: white">
+                        <th>ID</th>
                         <th>Name</th>
                         <th>Age</th>
                         <th>Address</th>
@@ -30,6 +31,7 @@
                     <tbody>
                         <xsl:for-each select="students/student">
                         <tr>
+                            <td><xsl:value-of select="@id"/></td>
                             <td>
                                 <xsl:value-of select="name"/>
                             </td>
